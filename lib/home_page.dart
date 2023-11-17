@@ -18,6 +18,12 @@ class HomePageState extends State<HomePage> {
   List<String> quotes = [];
   int n = 0;
 
+  @override
+  void initState() async {
+    super.initState();
+    await getQuotesData();
+  }
+
   Future<void> getQuotesData() async {
     const apiUrl = 'https://zenquotes.io/api/quotes';
 
