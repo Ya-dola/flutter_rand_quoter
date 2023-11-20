@@ -19,8 +19,12 @@ class HomePageState extends State<HomePage> {
   int n = 0;
 
   @override
-  void initState() async {
+  void initState() {
     super.initState();
+    initQuotesData();
+  }
+
+  void initQuotesData() async {
     await getQuotesData();
   }
 

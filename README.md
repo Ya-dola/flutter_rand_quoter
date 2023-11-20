@@ -6,6 +6,10 @@ Random Quotes Generator App to Get to Know about Flutter with Cupertino Apps
 
 - [Zen Quotes](https://zenquotes.io/)
 
+## Screenshot
+
+<img alt="App Screenshot" src="Screenshots/app.png" title="App Screenshot" width="260"/>
+
 ## Flutter Helpers
 
 - [Material Theme Guide](https://m3.material.io/)
